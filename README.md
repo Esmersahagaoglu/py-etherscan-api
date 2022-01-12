@@ -15,7 +15,15 @@ In order to use the API, you must provide an API key at runtime, which can be fo
 If you'd like to use the provided examples without altering them, then the JSON file `api_key.json` must be stored in
 the base directory. Its format is as follows:
 
-    { "key" : "YourApiKeyToken" }
+
+Sorgu" { "key" : "YourApiKeyToken" }
+
+sonuç" {"sözleşmeAdresi": "0x...",
+"tokenName": "Token Name",
+"symbol": "Jeton Sembolü",
+"bölen": "18",
+"tokenType": "ERC20",
+"totalSupply": "1000000000000000" |
 
 with `YourApiKeyToken` is your provided API key token from EtherScan.io
 
